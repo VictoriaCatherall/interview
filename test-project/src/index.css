@@ -1,0 +1,42 @@
+
+.board{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #000000;
+  text-align: center;
+  font-size: 24px;
+  background-color: #DDDDDD;
+  text-transform: uppercase;
+}
+
+.line{
+  display: flex;
+  gap: 3px;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.incorrect {
+  background-color: #F77373;
+}
+.discovered {
+  background-color: #EEEE10;
+}
+.success {
+  background-color: #30BB30;
+}
